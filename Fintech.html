@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login - Fintech</title>
+<!-- Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<style>
+    body {
+        margin: 0;
+        font-family: 'Times New Roman', Times, serif;
+        overflow-x: hidden;
+        background-color: #b7c0ca; /* Cor de fundo azul bebê */
+    }
+    .gradient-custom {
+        background: #6a11cb; /* Fallback para navegadores antigos */
+        background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1)); /* Para Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1)); /* Padrão W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card {
+        background-color: #f8f9fa; /* Cor de fundo azul bebê para o card */
+        border-radius: 1rem;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra suave */
+    }
+    .card-body {
+        padding: 2rem;
+    }
+    .custom-font {
+        font-family: 'Times New Roman', Times, serif; /* Fonte Times New Roman para o título */
+        font-size: 2.5rem;
+        color: #6a11cb; /* Cor personalizada */
+    }
+    .btn-google, .btn-facebook, .btn-custom {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+    .btn-google {
+        background-color: #dd4b39;
+        color: #fff;
+        border: none;
+    }
+    .btn-google:hover {
+        background-color: #c23321;
+    }
+    .btn-facebook {
+        background-color: #3b5998;
+        color: #fff;
+        border: none;
+    }
+    .btn-facebook:hover {
+        background-color: #2d4373;
+    }
+    .btn-custom {
+        background-color: #000;
+        border: none;
+        width: 100%;
+    }
+    .btn-custom:hover {
+        background-color: #333;
+    }
+</style>
+</head>
+<body>
+
+<section class="vh-100 gradient-custom">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+        <div class="card">
+          <div class="card-body p-5 text-center">
+
+            <div class="mb-4">
+              <h2 class="custom-font mb-3 text-uppercase"> Tomorrow's Price!</h2>
+              <p class="text-muted mb-4">Simplifique suas finanças e impulsione seu futuro! Por favor, insira seu login e senha.</p>
+
+              <form>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <input type="email" id="typeEmailX" class="form-control form-control-sm" placeholder="Seu email">
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <input type="password" id="typePasswordX" class="form-control form-control-sm" placeholder="Sua senha">
+                  </div>
+                </div>
+
+                <div class="form-group form-check d-flex justify-content-start mb-4">
+                  <input class="form-check-input mt-1" type="checkbox" value="" id="form1Example3">
+                  <label class="form-check-label ms-2" for="form1Example3"> Lembrar senha </label>
+                </div>
+
+                <button class="btn btn-primary btn-sm btn-block btn-custom mb-3" type="submit">Entrar</button>
+  
+              </form>
+
+              <hr class="my-4">
+
+              <button class="btn btn-google btn-sm btn-block">
+                <i class="fab fa-google me-2"></i> Entrar com Google
+              </button>
+              <button class="btn btn-facebook btn-sm btn-block">
+                <i class="fab fa-facebook-f me-2"></i> Entrar com Facebook
+              </button>
+
+            </div>
+
+            <div>
+              <p class="mb-0">Ainda não tem uma conta? <a href="#" class="text-decoration-none fw-bold">Cadastre-se</a></p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
